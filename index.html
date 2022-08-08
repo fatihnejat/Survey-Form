@@ -5,8 +5,72 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Bowlby+One+SC&family=Sorts+Mill+Goudy&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div id="container" >
+
+        <header id="header">
+            
+            <h1 id="title">NET<span>FLIX</span> </h1>
+            <h3 id="description">Thank you for signing up to Netflix.Tell me more about yourself.</h3>
+
+        </header>
+
+        <section id="survey-form">
+            <form action="result.html" method="get">
+                <div class="inputbox">
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="firstname" id="name" placeholder="Enter your name">
+                </div>
+
+                <div class="inputbox">
+                    <label for="age">Age</label>
+                    <br>
+                    <input type="number" name="Age" id="age" placeholder="Age">
+
+                </div>
+
+                <div class="inputbox">
+                    <label for="email">E-mail</label>
+                    <br>
+                    <input type="email" name="Email" id="email" placeholder="Enter your e-mail">
+                </div>
+
+                <div class="inputbox">
+                    <label for="content">Content Type</label>
+                    <br>
+                    <select name="Content" id="dropdown">
+                        <option value="movie">Movies</option>
+                        <option value="series" selected>Series</option>
+                        <option value="tvshow">Tv Shows</option>
+                    </select>
+                    
+
+
+                </div>
+
+
+
+
+
+            </form>
+
+
+
+
+
+        </section>
+
+    </div>
     
 </body>
 </html>
