@@ -5,7 +5,8 @@
 }
 
 body{
-    /*background-image: url(./img/background_image.jpg);*/
+    background-image: url(./img/background_image.jpg);
+    color: rgb(169, 166, 166);
 }
 
 #container{
@@ -32,4 +33,51 @@ span{
 #description{
     font-family: 'Sorts Mill Goudy', serif;
     /* color: white; */
+}
+
+textarea{
+    resize: none;
+}
+#survey-form{
+    width: 500px;
+    background-color: rgba(0,0,0,0.8);
+    margin: auto;
+    padding: 30px 40px;
+}
+
+#name, 
+#age, 
+#email, 
+#dropdown,
+#feedback{
+    width: 100%;
+    padding: 12px 10px;
+    margin-top: 10px;
+}
+
+.inputbox{
+    margin-top: 20px;
+
+}
+#form-button{
+    width: 160px;
+    height: 45px;
+    background-color: red;
+    color: white;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+}
+.form-submit{
+    margin: auto;
+    width: 100px;
+    margin-top: 15px;
+
+}
+#form-button:hover{
+    background-color: white;
+    color: red;
+}
+#movietype, #gender{
+    margin-top: 40px;
 }
