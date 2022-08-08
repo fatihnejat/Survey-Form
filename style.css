@@ -12,15 +12,17 @@ body{
 #container{
     max-width: 1240px;
     height: 1036px;
-    background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.4);
     margin: auto;
     margin-top: 30px;
 }
 #title{
 
-    font-size: 3.1rem;
+    font-size: 60px;
     color: white;
-    font-family: 'Bowlby One SC', cursive;
+    font-family: 'Bowlby One SC';
+    font-style: normal;
+
 }
 span{
     color: #ff0000;
@@ -32,6 +34,7 @@ span{
 
 #description{
     font-family: 'Sorts Mill Goudy', serif;
+    font-style: italic;
     /* color: white; */
 }
 
